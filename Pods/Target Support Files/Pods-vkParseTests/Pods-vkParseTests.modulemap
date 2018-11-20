@@ -1,0 +1,6 @@
+framework module Pods_vkParseTests {
+  umbrella header "Pods-vkParseTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
