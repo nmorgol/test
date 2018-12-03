@@ -10,9 +10,10 @@
 		592FBECBB6B98E095DDABD1C /* Pods_vkParseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37FC77162DFEEAE36F46EE02 /* Pods_vkParseUITests.framework */; };
 		A51C0A6FD546F9CE6A8FFCC7 /* Pods_vkParseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F77747ACFDE5C69AB089F6D1 /* Pods_vkParseTests.framework */; };
 		E0DEA22CB3DC7856726CCD45 /* Pods_vkParse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21ED1305B228ADF86994222 /* Pods_vkParse.framework */; };
-		EB885B6A219E09F1003A5657 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB885B69219E09F1003A5657 /* File.swift */; };
+		EB6D6DC821B3208E0052E2BC /* ExtentionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6D6DC721B3208E0052E2BC /* ExtentionViewController.swift */; };
+		EB885B6A219E09F1003A5657 /* ModelJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB885B69219E09F1003A5657 /* ModelJson.swift */; };
 		EB885B6E21A1E0E5003A5657 /* CastomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB885B6D21A1E0E5003A5657 /* CastomTableViewCell.swift */; };
-		EB885B7121A1E698003A5657 /* 1480622087_rodzher-s-sigaroy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB885B7021A1E698003A5657 /* 1480622087_rodzher-s-sigaroy.jpg */; };
+		EBB019D921B1B79D0038E94C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB019D821B1B79D0038E94C /* SecondViewController.swift */; };
 		EBF44074219AE791004FF314 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF44073219AE791004FF314 /* AppDelegate.swift */; };
 		EBF44076219AE791004FF314 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF44075219AE791004FF314 /* ViewController.swift */; };
 		EBF44079219AE791004FF314 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF44077219AE791004FF314 /* Main.storyboard */; };
@@ -49,9 +50,10 @@
 		BCBCB795B52DEABF4EB6AD23 /* Pods-vkParse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vkParse.release.xcconfig"; path = "Pods/Target Support Files/Pods-vkParse/Pods-vkParse.release.xcconfig"; sourceTree = "<group>"; };
 		C3A584A5C82B83B7452CF41B /* Pods-vkParseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vkParseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vkParseTests/Pods-vkParseTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D21ED1305B228ADF86994222 /* Pods_vkParse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vkParse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB885B69219E09F1003A5657 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		EB6D6DC721B3208E0052E2BC /* ExtentionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtentionViewController.swift; sourceTree = "<group>"; };
+		EB885B69219E09F1003A5657 /* ModelJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelJson.swift; sourceTree = "<group>"; };
 		EB885B6D21A1E0E5003A5657 /* CastomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastomTableViewCell.swift; sourceTree = "<group>"; };
-		EB885B7021A1E698003A5657 /* 1480622087_rodzher-s-sigaroy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "1480622087_rodzher-s-sigaroy.jpg"; path = "../../../Documents/1480622087_rodzher-s-sigaroy.jpg"; sourceTree = "<group>"; };
+		EBB019D821B1B79D0038E94C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		EBF44070219AE791004FF314 /* vkParse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vkParse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBF44073219AE791004FF314 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBF44075219AE791004FF314 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -120,10 +122,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EB6D6DC621B320510052E2BC /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				EB6D6DC721B3208E0052E2BC /* ExtentionViewController.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
 		EB885B6F21A1E65F003A5657 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				EB885B7021A1E698003A5657 /* 1480622087_rodzher-s-sigaroy.jpg */,
 				EBF4407D219AE792004FF314 /* Assets.xcassets */,
 			);
 			path = Assets;
@@ -156,9 +165,11 @@
 			children = (
 				EBF44073219AE791004FF314 /* AppDelegate.swift */,
 				EBF44075219AE791004FF314 /* ViewController.swift */,
-				EB885B69219E09F1003A5657 /* File.swift */,
+				EBB019D821B1B79D0038E94C /* SecondViewController.swift */,
+				EB885B69219E09F1003A5657 /* ModelJson.swift */,
 				EB885B6D21A1E0E5003A5657 /* CastomTableViewCell.swift */,
 				EBF44077219AE791004FF314 /* Main.storyboard */,
+				EB6D6DC621B320510052E2BC /* Extention */,
 				EB885B6F21A1E65F003A5657 /* Assets */,
 				EBF4407F219AE792004FF314 /* LaunchScreen.storyboard */,
 				EBF44082219AE792004FF314 /* Info.plist */,
@@ -295,7 +306,6 @@
 			files = (
 				EBF44081219AE792004FF314 /* LaunchScreen.storyboard in Resources */,
 				EBF4407E219AE792004FF314 /* Assets.xcassets in Resources */,
-				EB885B7121A1E698003A5657 /* 1480622087_rodzher-s-sigaroy.jpg in Resources */,
 				EBF44079219AE791004FF314 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,9 +424,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBB019D921B1B79D0038E94C /* SecondViewController.swift in Sources */,
 				EB885B6E21A1E0E5003A5657 /* CastomTableViewCell.swift in Sources */,
+				EB6D6DC821B3208E0052E2BC /* ExtentionViewController.swift in Sources */,
 				EBF44076219AE791004FF314 /* ViewController.swift in Sources */,
-				EB885B6A219E09F1003A5657 /* File.swift in Sources */,
+				EB885B6A219E09F1003A5657 /* ModelJson.swift in Sources */,
 				EBF44074219AE791004FF314 /* AppDelegate.swift in Sources */,
 				EBF4407C219AE791004FF314 /* vkParse.xcdatamodeld in Sources */,
 			);

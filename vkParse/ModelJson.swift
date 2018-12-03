@@ -3,6 +3,7 @@
 import Foundation
 class VkJson{
     var textValue = ""
-    var imageValue = ""
+    var imageValueForTable = ""
     var videoValue = ""
+    var imageValueForImage = ""
 }
